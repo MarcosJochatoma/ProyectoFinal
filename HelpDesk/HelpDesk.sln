@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Console", "HelpDesk.Console\HelpDesk.Console.csproj", "{844D0F9F-6824-4A49-9877-29268FDEDE77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Entities", "HelpDesk.Entities\HelpDesk.Entities.csproj", "{B658DAC5-24EB-4082-8742-D9FED8B6BCF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Persistence", "HelpDesk.Persistence\HelpDesk.Persistence.csproj", "{8A32615F-F25B-44D3-988B-B8F19FD52111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{844D0F9F-6824-4A49-9877-29268FDEDE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844D0F9F-6824-4A49-9877-29268FDEDE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{844D0F9F-6824-4A49-9877-29268FDEDE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B658DAC5-24EB-4082-8742-D9FED8B6BCF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B658DAC5-24EB-4082-8742-D9FED8B6BCF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B658DAC5-24EB-4082-8742-D9FED8B6BCF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B658DAC5-24EB-4082-8742-D9FED8B6BCF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A32615F-F25B-44D3-988B-B8F19FD52111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A32615F-F25B-44D3-988B-B8F19FD52111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A32615F-F25B-44D3-988B-B8F19FD52111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A32615F-F25B-44D3-988B-B8F19FD52111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
